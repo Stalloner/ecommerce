@@ -1,0 +1,166 @@
+
+body{
+    BACKGROUND: #99ff99;
+}
+
+
+h1{
+font-family: helvetica;
+color: black;
+text-align: center;
+}
+
+a:link {
+    background-color: #ffff99;
+}
+
+a:visited {
+    background-color: #ffff99;
+}
+
+a:hover {
+    background-color:#9999ff;
+}
+
+a:active {
+    background-color: #ffff99;
+} 
+
+
+
+div#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:12px;
+}
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
+#form{
+    border: solid gray 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+    padding: 90px;
+}
+
+#btn{
+    backgound: #337ab7;
+    padding: 5px;
+    margin-left: 69%;
+}
+
+.fixed-center-table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    padding-top: 30%;
+}
+
+
+.fixed-center-table  td{
+   text-align: center;
+}
+
+col#middle-column {
+   width: 600px;
+}
+
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 28%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+/*  For list */
+ul{
+    text-align:left;
+    margin:5% 0 0;
+    padding:0;
+    list-style-position:inside;
+}
+li{
+    margin: 0 0 0 5%;
+    padding:0;
+}
+
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+.img1{
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/e9/7b/45/e97b456dd330297a1643be881493dc71.jpg');
+}
+.img2{
+    background-image: url('https://assets.change.org/photos/9/lp/kn/CpLpKNHoZtBhKGr-800x450-noPad.jpg?1423780551');
+}
+.img3{
+    background-image: url('https://www.daysoftheyear.com/wp-content/images/hedgehog-day1-e1422787687319-804x382.jpg');
+}
+
+.img4{
+    background-image: url('https://media.mnn.com/assets/images/2015/03/pet-ferret.jpg.653x0_q80_crop-smart.jpg');
+}
+.img5{
+    background-image: url('http://www.petclassifieds.us/user_images/1106870.jpg');
+}
+.img6{
+    background-image: url('http://animalstime.com/wp-content/uploads/2016/02/african-rock-python.jpeg');
+}
+
+.img7{
+    background-image: url('http://a-z-animals.com/media/animals/images/470x370/squirrel_monkey6.jpg');
+}
+.img8{
+    background-image: url('http://www.cutestpaw.com/wp-content/uploads/2012/01/baby-Sugar-Glider.jpg');
+}
+.img9{
+    background-image: url('http://www.minidonkey.net/images/mini-donkey-Rimfire-LH-6048-Oct-24-02a.jpg');
+}
+
+
+
